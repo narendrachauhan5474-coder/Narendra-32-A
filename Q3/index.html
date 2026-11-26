@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q3 · To-do list</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="panel">
+    <h1>My to-do list</h1>
+    <form id="task-form">
+      <label class="sr-only" for="task-input">New task</label>
+      <input id="task-input" maxlength="120" placeholder="What needs doing?" required>
+      <button type="submit">Add task</button>
+    </form>
+    <ul id="tasks" aria-live="polite"></ul>
+    <p id="empty">No tasks yet. Add one above.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

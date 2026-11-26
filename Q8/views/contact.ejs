@@ -1,0 +1,3 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title><%= title %> · Q8</title><link rel="stylesheet" href="/style.css"></head>
+<body><main><nav><a href="/">Home</a><a href="/about">About</a><a href="/contact">Contact</a><a href="/time">Server time</a></nav><h1>Contact</h1><% if (submitted) { %><p role="status"><%= submitted %></p><% } %><form method="post" action="/contact"><label>Name<input name="name" required maxlength="80"></label><label>Message<textarea name="message" required maxlength="1000"></textarea></label><button>Send message</button></form></main></body></html>

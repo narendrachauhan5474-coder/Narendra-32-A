@@ -1,0 +1,13 @@
+{
+  "name": "q10-product-api-client-rendering",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express product API with client-side rendering",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

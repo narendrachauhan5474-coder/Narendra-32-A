@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 28px; background: #f1f5f9; color: #172033; font: 16px/1.5 system-ui, sans-serif; }
+main { width: min(100%, 720px); margin: auto; padding: 26px; border-radius: 14px; background: white; }
+nav { display: flex; flex-wrap: wrap; gap: 16px; }
+a { color: #4f46e5; }
+label { display: grid; gap: 6px; margin: 14px 0; }
+input, textarea { padding: 10px; border: 1px solid #cbd5e1; border-radius: 8px; font: inherit; }
+button { padding: 10px 14px; border: 0; border-radius: 8px; background: #4f46e5; color: white; font: inherit; }

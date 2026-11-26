@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q12 · Market Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#">Market Demo</a><nav><a href="#catalog">Shop</a><a href="#cart">Cart <span id="cart-count">0</span></a><a href="#orders">Orders</a><a href="#seller">Seller panel</a></nav></header>
+  <main>
+    <section class="intro"><p class="eyebrow">Small finds, thoughtfully made</p><h1>A little something for your everyday.</h1><p>This storefront is a local demo. Checkout simulates an order and does not charge a payment method.</p></section>
+    <section id="catalog"><div class="section-heading"><div><p class="eyebrow">The collection</p><h2>Shop products</h2></div></div><div id="products" class="product-grid"></div></section>
+    <section id="cart" class="split-section"><div><p class="eyebrow">Your basket</p><h2>Shopping cart</h2><div id="cart-items"></div><p id="cart-total" class="total"></p></div>
+      <form id="checkout-form" class="form-card"><h3>Demo checkout</h3><p class="muted">No real payment is processed.</p><label>Name<input name="customer" required maxlength="100"></label><label>Email<input name="email" type="email" required maxlength="200"></label><button>Place demo order</button><p id="checkout-status" role="status"></p></form>
+    </section>
+    <section id="orders"><p class="eyebrow">Your purchases</p><h2>Successful orders</h2><div id="order-list"></div></section>
+    <section id="seller"><p class="eyebrow">Manage the collection</p><h2>Seller panel</h2><div class="split-section seller-layout">
+      <form id="product-form" class="form-card"><h3 id="product-form-title">Add a product</h3><input type="hidden" name="id"><label>Product name<input name="name" required maxlength="100"></label><label>Description<textarea name="description" required maxlength="500"></textarea></label><label>Price (USD)<input name="price" type="number" min="0.01" step="0.01" required></label><button>Save product</button><button type="button" id="cancel-edit" class="secondary" hidden>Cancel edit</button></form>
+      <div><h3>Current products</h3><div id="seller-products"></div></div>
+    </div></section>
+  </main>
+  <footer>Q12 E-commerce lab · Local demo only</footer>
+  <script src="app.js"></script>
+</body>
+</html>

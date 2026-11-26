@@ -1,0 +1,14 @@
+{
+  "name": "q8-express-ejs-routes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express routes rendered with EJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

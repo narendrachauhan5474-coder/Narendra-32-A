@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 24px; background: #f8fafc; color: #172033; font: 16px/1.5 system-ui, sans-serif; }
+main { width: min(100%, 760px); margin: auto; }
+form { padding: 20px; border-radius: 14px; background: white; box-shadow: 0 8px 25px #17203312; }
+label { display: block; margin-bottom: 8px; font-weight: 600; }
+form div { display: flex; gap: 8px; }
+input { min-width: 0; flex: 1; padding: 10px; border: 1px solid #cbd5e1; border-radius: 8px; font: inherit; }
+button { padding: 10px 16px; border: 0; border-radius: 8px; background: #0f766e; color: white; font: inherit; cursor: pointer; }
+#results { padding: 0; list-style: none; }
+#results li { margin: 10px 0; padding: 14px; border-radius: 10px; background: white; }
+#results a { color: #0f766e; overflow-wrap: anywhere; }
+.state { color: #64748b; }
